@@ -1,8 +1,6 @@
 "use client"
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
-import logo from "../../public/assets/logo/logo.png"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -12,16 +10,10 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         {/* Desktop Footer */}
         <div className="hidden md:flex justify-between items-start">
-          {/* Logo and info section */}
+          {/* Text Logo and info section */}
           <div className="w-1/3">
-            <Link href="/" className="inline-block mb-1">
-              <Image 
-                src={logo} 
-                alt="Logo" 
-                className="h-40 w-auto"
-                width={160}
-                height={64}
-              />
+            <Link href="/" className="inline-block mb-6">
+              <span className="text-3xl font-bold text-white">NEXT</span>
             </Link>
             <p className="text-gray-400 text-sm mb-4">
               Empowering the next generation of leaders through AI education and innovation.
@@ -94,16 +86,10 @@ const Footer = () => {
         
         {/* Mobile Footer */}
         <div className="md:hidden">
-          {/* Logo centered */}
+          {/* Text Logo centered */}
           <div className="flex justify-center mb-6">
             <Link href="/">
-              <Image 
-                src={logo} 
-                alt="Logo" 
-                className="h-12 w-auto"
-                width={120}
-                height={48}
-              />
+              <span className="text-3xl font-bold text-white">NEXT</span>
             </Link>
           </div>
           

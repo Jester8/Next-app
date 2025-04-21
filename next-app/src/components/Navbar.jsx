@@ -26,14 +26,14 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8">
           <NavLink href="/" active>Home</NavLink>
           <NavLink href="/about">About</NavLink>
-          <NavLink href="/service">Events</NavLink>
+          <NavLink href="/events">Events</NavLink>
           <NavLink href="/contact">Contact</NavLink>
          
         </div>
 
         {/* Contact Us Button - Desktop */}
         <div className="hidden md:block">
-          <Link href="/contact" className="border border-white text-white hover:bg-white/10 transition-colors duration-300 rounded-full px-6 py-2">
+          <Link href="https://chat.whatsapp.com/CjtXm6u9yOt2fnCR2DzloZ" className="border border-white text-white hover:bg-white/10 transition-colors duration-300 rounded-full px-6 py-2">
             Join us
           </Link>
         </div>
@@ -75,9 +75,9 @@ const Navbar = () => {
         <div className="flex flex-col space-y-6 items-center text-xl">
           <MobileNavLink href="/" active onClick={toggleMenu}>Home</MobileNavLink>
           <MobileNavLink href="/about" onClick={toggleMenu}>About</MobileNavLink>
-          <MobileNavLink href="/service" onClick={toggleMenu}>Service</MobileNavLink>
-          <MobileNavLink href="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
-          <MobileNavLink href="/plan" onClick={toggleMenu}>Plan</MobileNavLink>
+          <MobileNavLink href="/events" onClick={toggleMenu}>Events</MobileNavLink>
+    
+         
           
           <div className="pt-4">
             <Link 
@@ -107,8 +107,6 @@ const NavLink = ({ href, children, active = false }) => {
     </Link>
   )
 }
-
-// Helper component for mobile navigation links
 const MobileNavLink = ({ href, children, active = false, onClick }) => {
   return (
     <Link 
