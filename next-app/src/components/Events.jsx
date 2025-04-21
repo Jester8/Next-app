@@ -35,21 +35,21 @@ const Events = () => {
   const MobileEventContent = () => (
     <>
       <h2 className="text-3xl font-bold text-white mb-4 text-center">AI or Die Tour – UI Edition!</h2>
-      <p className="text-lg text-gray-300 mb-4 text-center">
+      <p className="text-md text-gray-300 mb-4 text-center">
         Join global AI expert Alexander Morad on May 1st, 2025, at 10 AM at the University of Ibadan, 
         Faculty of Science. Discover how Generative AI is reshaping content, business, and education—powered by NEXT.
       </p>
       
-      <p className="text-lg text-gray-300 mb-4 text-center">
+      <p className="text-md text-gray-300 mb-4 text-center">
         The future is unfolding right before our eyes—are you ready to step into it?
         Join us on this revolutionary tour into the world of Generative AI!
       </p>
       
-      <p className="text-lg text-gray-300 mb-4 text-center">
+      <p className="text-md text-gray-300 mb-4 text-center">
         "What AI cannot do DOES NOT exist." — Bold claim or undeniable reality? Let's put it to the test with Alexander Morad on May 1st, 2025!
       </p>
       
-      <p className="text-lg text-gray-300 mb-4 text-center">
+      <p className="text-md text-gray-300 mb-4 text-center">
         From creativity to problem-solving, AI is rewriting the rules. Don't just hear about the future—experience it firsthand.
       </p>
       
@@ -86,21 +86,21 @@ const Events = () => {
   const DesktopEventContent = () => (
     <>
       <h2 className="text-3xl font-bold text-white mb-4">AI or Die Tour – UI Edition!</h2>
-      <p className="text-lg text-gray-300 mb-4">
+      <p className="text-md text-gray-300 mb-4">
         Join global AI expert Alexander Morad on May 1st, 2025, at 10 AM at the University of Ibadan, 
         Faculty of Science. Discover how Generative AI is reshaping content, business, and education—powered by NEXT.
       </p>
       
-      <p className="text-lg text-gray-300 mb-4">
+      <p className="text-md text-gray-300 mb-4">
         The future is unfolding right before our eyes—are you ready to step into it?
         Join us on this revolutionary tour into the world of Generative AI!
       </p>
       
-      <p className="text-lg text-gray-300 mb-4">
+      <p className="text-md text-gray-300 mb-4">
         "What AI cannot do DOES NOT exist." — Bold claim or undeniable reality? Let's put it to the test with Alexander Morad on May 1st, 2025!
       </p>
       
-      <p className="text-lg text-gray-300 mb-4">
+      <p className="text-md text-gray-300 mb-4">
         From creativity to problem-solving, AI is rewriting the rules. Don't just hear about the future—experience it firsthand.
       </p>
       

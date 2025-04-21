@@ -19,7 +19,7 @@ const AboutHero = () => {
               <h2 className="text-3xl md:text-4xl font-bold"> Technology</h2>
             </div>
             
-            <p className="text-gray-400 text-sm mb-8">
+            <p className="text-gray-100 text-md mb-8">
             NEXT is an organisation that focuses on helping young Nigerians and Africans gain 
 tech skills, like programming, through integration within the educational system, 
 avoiding extra fees for learning outside school.
@@ -36,8 +36,8 @@ avoiding extra fees for learning outside school.
                   </div>
                 </div> */}
                 <div>
-                  <h3 className="font-medium">    MISSION</h3>
-                  <p className="text-gray-400 text-sm">
+                  <h3 className=" font-bold">    MISSION</h3>
+                  <p className="text-gray-100 text-md">
                
 To empower young Africans with essential tech skills by integrating affordable, 
 accessible, and industry-relevant technology education into the existing school 
@@ -56,8 +56,8 @@ economy.
                   </div>
                 </div> */}
                 <div>
-                  <h3 className="font-medium">Vision</h3>
-                  <p className="text-gray-400 text-sm">
+                  <h3 className="font-bold">Vision</h3>
+                  <p className="text-gray-100 text-md">
                   To become the leading force in transforming education across Africa, ensuring every 
 young person is equipped with the tools and knowledge to drive innovation, create 
 solutions, and lead in the intelligence age

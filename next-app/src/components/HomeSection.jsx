@@ -41,7 +41,7 @@ const HomeSection = () => {
               <br />
               <span className="text-emerald-400">technology</span> to the younger generation.
             </h1>
-            <p className="text-gray-300 max-w-lg">
+            <p className="text-gray-100 max-w-lg">
               Here at Next we are empowering the next generation of leaders through AI education and innovation.
             </p>
             <button className="flex items-center space-x-2 bg-transparent hover:bg-emerald-700 text-emerald-400 font-semibold hover:text-white py-2 px-4 border border-emerald-400 hover:border-transparent rounded-full transition duration-300">
@@ -70,13 +70,12 @@ const HomeSection = () => {
       <div ref={secondSectionRef} className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row-reverse items-center justify-between gap-10">
           <div className="w-full md:w-1/2 space-y-6 mb-8 md:mb-0 text-content opacity-0 transition-all duration-1000 ease-out">
-            <h2 className="text-md md:text-md font-bold">EduTech Innovation</h2>
             <h3 className="text-3xl md:text-4xl font-bold leading-tight">
               Revolutionizing Education:
               <br />
               <span className="text-emerald-400">The Next Generation</span>
             </h3>
-            <p className="text-gray-300 max-w-lg">
+            <p className="text-gray-100 max-w-lg">
               Next is bringing the much-needed change to education technology. We're bridging the digital 
               divide and empowering students with AI tools that enhance learning outcomes while preparing 
               them for tomorrow's challenges in an increasingly technological world.
