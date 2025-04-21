@@ -25,4 +25,18 @@
     @apply bg-background text-foreground;
     font-family: var(--font-bricolage); /* Applied globally */
   }
+
+  .animate-in {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+  }
+
+  @media (max-width: 768px) {
+    .center-on-mobile {
+      justify-content: center !important;
+      text-align: center !important;
+      align-items: center !important;
+    }
+  }
+  
 }

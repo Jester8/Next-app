@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import img from "../../public/assets/img/rob7.png"
+import img from "../../public/assets/img/ai.jpg"
 
 const Ai = () => {
   return (

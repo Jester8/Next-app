@@ -36,7 +36,7 @@ const HomeSection = () => {
             ) : (
               <>
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                  Let's <span className="text-white">Horizon</span>
+                  We are  <span className="text-white">Horizon</span>
                   <br />
                   <span className="text-emerald-400">Robotics</span> Handle It,
                 </h1>
