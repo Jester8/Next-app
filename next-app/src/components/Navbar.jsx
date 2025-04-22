@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="w-full bg-black py-4 px-6">
+    <nav className="w-full bg-black py-4 px-6 fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
@@ -100,7 +100,7 @@ const NavLink = ({ href, children, active = false }) => {
     <Link 
       href={href} 
       className={`${
-        active ? 'text-green-500' : 'text-white'
+        active ? '' : 'text-white'
       } hover:text-green-500 transition-colors duration-300`}
     >
       {children}
@@ -112,7 +112,7 @@ const MobileNavLink = ({ href, children, active = false, onClick }) => {
     <Link 
       href={href} 
       className={`${
-        active ? 'text-green-500' : 'text-white'
+        active ? '' : 'text-white'
       } hover:text-green-500 transition-colors duration-300 text-center w-full`}
       onClick={onClick}
     >

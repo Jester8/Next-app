@@ -31,7 +31,7 @@ const HomeSection = () => {
   }, []);
 
   return (
-    <section className="w-full bg-black text-white">
+    <section className="w-full text-white bg-gradient-to-br from-green-900 via-black to-green-900 mt-8">
       {/* First Section */}
       <div ref={firstSectionRef} className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between">
